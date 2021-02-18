@@ -1,0 +1,97 @@
+@font-face {
+    font-family: 'Neucha';
+    src: url(../fonts/Neucha-Regular.ttf);
+  }
+  
+  @font-face {
+    font-family: 'roboto';
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+  }
+  
+  @font-face {
+    font-family: 'serif';
+    src: url(../fonts/PTSerif-Regular.ttf);
+  }
+  
+  .clearfix {
+    float: none;
+    clear: both;
+  }
+  
+  hr{
+    display: block;
+    color: rgb(68, 68, 68);
+    border-style: dotted;
+    border-width: 8px;
+    border-top-style: none;
+    width: 10%;
+  
+  }
+  
+  #mas {     
+       background-color:black;
+       text-align: center;
+       font-size: 20px;
+       line-height: 30px;
+       margin: 40px auto;
+       width: 10%;
+       height: 30px;
+       margin-bottom: 70px;
+  }
+  
+  #mas a{
+    color:yellow;
+    margin: auto;
+  }
+  
+  body {
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto';
+    letter-spacing: 1px;
+    color: white;
+  }
+  
+  /*****BARRA NAVEGACION******/
+  .navbar-collapse {
+    text-align: center;
+  }
+  
+  a {
+    text-decoration: none !important;
+    list-style: none;
+    transition: all 300ms;
+    color: white;
+  }
+  
+  a:hover {
+    transform: scale(1.1, 1.1);
+    color: red !important;
+  }
+  
+  #activo{
+    color: red !important;
+  }
+  
+  .navbar-brand {
+    font-family: 'serif';
+    color: yellow !important;
+  }
+  
+  #barra-nav{
+    background-color: #000000;
+    
+  }
+  
+
+
+#working{ 
+
+    margin-left: 40%;
+}
+
+p {
+    text-align: center;
+
+}

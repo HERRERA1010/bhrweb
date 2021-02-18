@@ -1,0 +1,103 @@
+@font-face {
+    font-family: 'Neucha';
+    src: url(../fonts/Neucha-Regular.ttf);
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url(../fonts/RobotoCondensed-Bold.ttf);
+}
+
+@font-face {
+    font-family: 'serif';
+    src: url(../fonts/PTSerif-Regular.ttf);
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+body {
+    background-color: #000000;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'roboto';
+    letter-spacing: 1px;
+    color: white;
+}
+
+
+.navbar-collapse {
+    text-align: center;
+}
+
+a {
+    text-decoration: none !important;
+    list-style: none;
+    transition: all 300ms;
+    color: white;
+}
+
+a:hover {
+    transform: scale(1.1, 1.1);
+    color: red !important;
+}
+
+#activo{
+    color: red !important;
+  }
+.navbar-brand {
+    font-family: 'serif';
+    color: yellow !important;
+}
+
+#barra-nav {
+    background-color: #000000;
+    color: yellow;
+}
+
+/*********audio relatos**********/
+#galeria{
+    margin-top: 60px;
+}
+
+h2{
+    margin-top: 35px;
+    color: yellow;
+}
+
+.historia1 img {
+    width: 60%;
+    height: 200px;
+    margin: auto;
+}
+
+.historia1 {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.historiaImagen {
+    display: block;
+    text-align: center;
+    border-radius: 100%;
+}
+
+.historia1 p {
+    margin-top: 15px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+
+.row>div>audio {
+    margin-top: 10px;
+}
+
+.row>div>audio:hover {
+    border-radius: 25px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 1px 1px blue;
+}
