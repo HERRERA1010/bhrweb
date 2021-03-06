@@ -49,13 +49,10 @@ a:hover {
   }
 .navbar-brand {
     font-family: 'serif';
-    color: yellow !important;
+
 }
 
-#barra-nav {
-    background-color: #000000;
-    color: yellow;
-}
+
 
 /*********audio relatos**********/
 #galeria{
@@ -64,7 +61,8 @@ a:hover {
 
 h2{
     margin-top: 35px;
-    color: yellow;
+    
+   
 }
 
 .historia1 img {
